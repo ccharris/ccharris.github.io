@@ -1,6 +1,6 @@
 <?php
 
-$apiKey = '8f905466a5bb0860d7314eadc819c8'; // Your MailChimp API Key
+$apiKey = '8f905466a5bb0860d7314eadc819c8-us12'; // Your MailChimp API Key
 $listId = '8e23757c3e'; // Your MailChimp List ID
 $double_optin=false;
 $send_welcome=false;
