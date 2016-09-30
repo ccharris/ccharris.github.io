@@ -727,72 +727,32 @@
                 <!-- Contact form -->
                 <div class="row">
                     <div class="col-md-8 col-md-offset-2">
-                        <!-- <form id="contact" class="contact-form row" role="form">
-                            <div class="col-md-12 text-center">
-                                <h5 class="successContent">
-                                    <i class="fa fa-check left" style="color: #5cb45d;"></i>Your message has been sent successfully.
-                                </h5>
-                                <h5 class="errorContent" style="color: #e1534f;">
-                                    <i class="fa fa-exclamation-circle left"></i>There was a problem validating the form please check!
-                                </h5>
-                            </div>
+                        
 
-                            <div class="col-md-6">
-                                <div class="form-field-wrapper">
-                                    <input class="input-lg form-full" id="form-name" type="text" name="form-name" placeholder="Your Name" required />
-                                </div>
+                        <form action="https://formspree.io/ccharris27@gmail.com" method="POST">
+                        <div class="form-group">
+                        <input type="text" class="form-control" placeholder="Your Name *" id="name" required="" data-validation-required-message="Please enter" name="name"> 
+                        <p class="help-block text-danger"></p>
+                        </div>
+                        <div class="form-group">
+                        <input type="email" class="form-control" placeholder="Your email*" id="email" required="" data-validation-required-message="Please enter" name="_replyto"> 
+                        <p class="help-block text-danger"></p>
+                        </div>
 
-
-                            </div>
-                            <div class="col-md-6">
-                                <div class="form-field-wrapper">
-                                    <input class="input-lg form-full" id="form-email" type="email" name="form-email" placeholder="Email" required />
-                                </div>
-                            </div>
-                            <div class="col-md-12">
-                                <div class="form-field-wrapper">
-                                    <input class="input-lg form-full" id="form-subject" type="text" name="form-subject" placeholder="Subject" />
-                                </div>
-                            </div>
-                            <div class="col-md-12">
-                                <div class="form-field-wrapper">
-                                    <textarea class="home-contact-txt-msg input-lg form-full" id="form-message" rows="7" name="form-message" placeholder="Your Message" required></textarea>
-                                </div>
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <textarea class="form-control" placeholder="your message *" id="message" required="" data-validation-required-message="Please leave a message" name="message"></textarea>
+                            <p class="help-block text-danger"></p>
 
                             </div>
-                            <div class="col-md-12">
-                                <button class="btn-contact-submit btn btn-lg btn-black" type="submit" id="form-submit" name="submit">Send Message</button>
-                            </div>
 
-                        </form>
-                        <form method="POST" action="https://formspree.io/ccharris27@gmail.com">
-                            <div class="col-md-6">
-                                <div class="form-field-wrapper">
-                                    <input class="input-lg form-full" id="form-name" type="text" name="form-name" placeholder="Your Name" required />
-                                </div>
-
-
-                            </div>
-                            <div class="col-md-6">
-                                <div class="form-field-wrapper">
-                                    <input class="input-lg form-full" id="form-email" type="email" name="form-email" placeholder="Email" required />
-                                </div>
-                            </div>
-                            <div class="col-md-12">
-                                <div class="form-field-wrapper">
-                                    <input class="input-lg form-full" id="form-subject" type="text" name="form-subject" placeholder="Subject" />
-                                </div>
-                            </div>
-                            <div class="col-md-12">
-                                <div class="form-field-wrapper">
-                                    <textarea class="home-contact-txt-msg input-lg form-full" id="form-message" rows="7" name="form-message" placeholder="Your Message" required></textarea>
-                                </div>
-
-                            </div>
-                            <div class="col-md-12">
-                                <button class="btn-contact-submit btn btn-lg btn-black" type="submit" id="form-submit" name="submit">Send Message</button>
-                            </div>                        </form> -->
-                            <form action="http://formspree.io/ccharris27@gmail.com" method="POST">
+                        </div>
+                        <div class="col-lg-12 text-center">
+                        <div id="success"></div>
+                        <button type="submit" class="btn btn-xl"><i class="fa fa-paper-plane-o" aria-hidden="true"></i>Send Message</button>
+                        </div>
+                    </form>
+                        <!--     <form action="http://formspree.io/ccharris27@gmail.com" method="POST">
                             <div class="col-md-12">
                                 <div class="form-field-wrapper">
                             <input class="input-lg form-full" id="form-email" type="email" name="_replyto" placeholder="Your Email">
@@ -806,7 +766,7 @@
                             <div class="col-md-12">
                             <button class="btn-contact-submit btn btn-lg btn-black" type="submit" value="send">Send</button>
                             </div>
-                            </form>
+                            </form> -->
                     </div>
                 </div>
                 <!-- End Contact form -->
